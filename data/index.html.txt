@@ -1,0 +1,2 @@
+﻿<h2>Hi!</h2>
+<p>You can <a href="admin?edit=index.html">edit</a> this page.<br /> The default login is <span class="code">admin</span>, you should change this in <span class="code">config.inc.php</span>.</p>

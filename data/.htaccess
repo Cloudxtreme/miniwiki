@@ -1,0 +1,2 @@
+# Disallow browsing /data.
+deny from all
