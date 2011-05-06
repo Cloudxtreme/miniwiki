@@ -1,6 +1,4 @@
-#content { width: 650px; }
-
-body { margin: 0; padding: 20px !important; }
+body { width: 650px; margin: 0; padding: 0; }
 body, td { font: normal 13px Georgia, Times, serif; line-height: 1.4em; color: #333; }
 table, h1, h2, h3, p, ul, pre { margin: 0 0 1em 0; }
 table { width: 100%; border-collapse: collapse; }
@@ -19,9 +17,14 @@ pre { font: normal 12px Courier, monospace; line-height: 1.3em; padding: 6px;
     background: rgb(235,245,250); border: 1px solid rgb(165,175,180);
     border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px;
 }
-a { color: dodgerblue; text-decoration: none; outline: none; }
+
+/* Links */
+a { color: dodgerblue !important; text-decoration: none; outline: none; } /* !important for FF+TinyMCE */
 a:hover { text-decoration: underline; }
 a[href^="http"] { background: url(../g/external.png) right no-repeat; padding-right: 12px; }
+
+/* Editor mode */
+body.mceContentBody { padding: 10px !important; }
 
 /* Editor styles */
 .big { font-size: 1.3em; }

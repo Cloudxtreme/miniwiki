@@ -13,7 +13,7 @@
 .admin input, 
 .admin select { font: normal 11px Tahoma, Verdana, Arial, Helvetica; padding-bottom: 1px; }
 .admin textarea { width: 100%; height: 100%; display: block; border: 0; resize: none; }
-.admin form { position: absolute; top: 0; bottom: 32px; width: 100%; min-height: 250px; margin: 0; }
+.admin form { position: absolute; top: 0; bottom: 32px; width: 100%; min-height: 375px; margin: 0; }
 .admin .mceEditor { height: 100% !important; display: block; }
 .admin .mceLayout { width: 100% !important; height: 100% !important; }
 .admin .mceIframeContainer { height: 100% !important; border-bottom: 0 !important; }
