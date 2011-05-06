@@ -1,4 +1,4 @@
-body { width: 650px; margin: 0; padding: 0; }
+body { width: 650px; margin: 0; padding: 10px; }
 body, td { font: normal 13px Georgia, Times, serif; line-height: 1.4em; color: #333; }
 table, h1, h2, h3, p, ul, pre { margin: 0 0 1em 0; }
 table { width: 100%; border-collapse: collapse; }

@@ -9,6 +9,6 @@
 	<script type="text/javascript" src="<?= $HOME ?>js/page.js"></script>
 </head>
 <body id="page">
-	<?= $content."\n" ?>
+	<?= $content."\n" ?>	
 </body>
 </html>
