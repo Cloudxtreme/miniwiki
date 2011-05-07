@@ -44,18 +44,18 @@
 /* TINYMCE POPUP
  * Sparse layout with less borders.
  */
-.admin #mceModalBlocker { background: #000 !important; opacity: 0.3; }    
+.admin #mceModalBlocker { background: #000 !important; opacity: 0.25; }    
 .admin .mceMovable .mceClose, 
 .admin .mceMovable .mceMax { display: none !important; }
 .admin .mceMovable .mceLeft, .mceMovable .mceRight, .mceMovable .mceBottom { visibility: hidden; }
 .admin .mceMovable .mceTop span { color: #000 !important; font-weight: normal !important; }
-.admin .mceMovable .mceTop { background: #aaa url(../g/admin-dock.jpg) repeat-x !important; }
+.admin .mceMovable .mceTop { background: #a3a3a3 url(../g/admin-dock.jpg) repeat-x !important; }
 .admin .mceMovable .mceTop .mceLeft, 
 .admin .mceMovable .mceTop .mceRight,
 .admin .mceMovable .mceTop .mceCenter, 
 .admin .mceMovable .mceMiddle span { background: none !important;  }
 .admin .mceMovable .mceMiddle iframe { border: 1px solid #999 !important; }
-.admin .mceMovable .mceMiddle { background: #969696 !important; }
+.admin .mceMovable .mceMiddle { background: #a3a3a3 !important; }
 .mceActionPanel { position: absolute; bottom: 8px; width: 95%; text-align: center;}
 .mceActionPanel input { font-weight: normal !important; width: 90px !important; height: 20px !important; }
 /* Popup dropshadow */
